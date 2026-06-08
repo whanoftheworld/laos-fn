@@ -1,0 +1,26 @@
+{
+  "name": "ຫວຍລາວການເງິນ — LAOS-Finance",
+  "short_name": "ຫວຍລາວການເງິນ",
+  "description": "ເວັບໄຊທ໌ທາງການ ຖ່າຍທອດສົດ ແລະ ຜົນຫວຍລາວທຸກປະເພດ ພາຍໃຕ້ສຳປະທານໃໝ່ ຈາກລັດຖະບານລາວ",
+  "lang": "lo",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FAFAF7",
+  "theme_color": "#C8102E",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

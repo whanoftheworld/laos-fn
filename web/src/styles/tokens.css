@@ -1,0 +1,58 @@
+:root {
+  /* Surfaces - light theme */
+  --bg-base: #FAFAF7;
+  --bg-elevated: #FFFFFF;
+  --bg-muted: #F4F4F0;
+  --bg-overlay: rgba(0, 0, 0, 0.4);
+
+  /* Borders */
+  --border-subtle: #ECECE6;
+  --border-default: #DCDCD4;
+  --border-strong: #C0C0B6;
+
+  /* Text */
+  --text-primary: #1A1A1A;
+  --text-secondary: #4A4A4A;
+  --text-tertiary: #7A7A7A;
+  --text-muted: #A0A0A0;
+  --text-inverse: #FFFFFF;
+
+  /* Brand — Lao national colors (red, blue, white) + gold for premium */
+  --brand-red: #C8102E;
+  --brand-red-hover: #A50D26;
+  --brand-red-soft: rgba(200, 16, 46, 0.10);
+  --brand-gold: #D4A017;
+  --brand-gold-soft: rgba(212, 160, 23, 0.12);
+  --brand-green: #0E7C3A;
+  --brand-green-soft: rgba(14, 124, 58, 0.10);
+  --brand-blue: #003DA5;
+  --brand-blue-soft: rgba(0, 61, 165, 0.10);
+
+  /* Semantic */
+  --success: #16A34A;
+  --success-soft: rgba(22, 163, 74, 0.12);
+  --danger: #DC2626;
+  --danger-soft: rgba(220, 38, 38, 0.12);
+  --warning: #F59E0B;
+  --warning-soft: rgba(245, 158, 11, 0.12);
+  --info: #0284C7;
+  --info-soft: rgba(2, 132, 199, 0.12);
+
+  /* Live indicator (pulse red) */
+  --live-red: #FF1744;
+  --live-glow: 0 0 0 4px rgba(255, 23, 68, 0.20);
+
+  /* Hero top banner gradient (subtle wash) */
+  --bg-hero-gradient: linear-gradient(
+    135deg,
+    rgba(200, 16, 46, 0.06) 0%,
+    rgba(0, 61, 165, 0.05) 60%,
+    rgba(212, 160, 23, 0.05) 100%
+  );
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05), 0 4px 12px rgba(0, 0, 0, 0.04);
+  --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.08), 0 12px 24px rgba(0, 0, 0, 0.06);
+  --shadow-result: 0 2px 6px rgba(200, 16, 46, 0.15), 0 8px 24px rgba(200, 16, 46, 0.08);
+}

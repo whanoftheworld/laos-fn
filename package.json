@@ -1,0 +1,22 @@
+{
+  "name": "laos-finance",
+  "version": "0.1.0",
+  "private": true,
+  "description": "เว็บไซต์ทางการ ข่าวสาร + ไลฟ์สดผลหวยรัฐบาลลาว (LAOS-Finance official portal)",
+  "scripts": {
+    "dev": "pnpm --filter @laos-finance/web dev",
+    "dev:api": "pnpm --filter @laos-finance/api dev",
+    "dev:all": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "build:web": "pnpm --filter @laos-finance/web build",
+    "build:api": "pnpm --filter @laos-finance/api build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

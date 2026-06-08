@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <rect width="180" height="180" rx="36" fill="#C8102E"/>
+  <g fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round">
+    <path d="M 50 62 a 50 50 0 0 0 0 56"/>
+    <path d="M 66 72 a 31 31 0 0 0 0 36"/>
+    <path d="M 130 62 a 50 50 0 0 1 0 56"/>
+    <path d="M 114 72 a 31 31 0 0 1 0 36"/>
+  </g>
+  <circle cx="90" cy="90" r="12" fill="#ffffff"/>
+  <rect x="84" y="90" width="12" height="44" rx="6" fill="#ffffff"/>
+  <text x="90" y="160" font-family="Noto Sans Lao, system-ui, sans-serif" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">ຫວຍລາວ</text>
+</svg>
